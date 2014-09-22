@@ -1,4 +1,4 @@
-Mebus Personal .rcfiles
+Mebus personal .rcfiles
 =======================
 
 To use the files for your user, use the following commands:
