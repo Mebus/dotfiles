@@ -2958,10 +2958,10 @@ alias da='du -sch'
 #a2# Execute \kbd{jobs -l}
 alias j='jobs -l'
 
-# Mebus save copy commands
-alias cpi="command cp -i"
-alias mvi="command mv -i"
-alias rmi="command rm -i"
+# Mebus safe copy commands
+alias cpi="cp -i"
+alias mvi="mv -i"
+alias rmi="rm -i"
 
 # listing stuff
 #a2# Execute \kbd{ls -lSrah}
