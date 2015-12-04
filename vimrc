@@ -1,3 +1,11 @@
+"" Pathogen
+
+execute pathogen#infect()
+
+"" jellybeans colorscheme from pathogen
+
+colorscheme jellybeans
+
 "" 80 Columns
 
 highlight ColorColumn ctermbg=238

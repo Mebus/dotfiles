@@ -24,3 +24,11 @@ linkit vimrc
 linkit zshrc
 linkit tmux.conf
 
+# install vim pathogen
+
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+    curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
+# install color scheme
+
+git clone https://github.com/nanotech/jellybeans.vim ~/.vim/bundle/jellybeans.vim
