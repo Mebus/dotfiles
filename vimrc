@@ -1,6 +1,6 @@
 "" 80 Columns
 
-highlight ColorColumn ctermbg=235 guibg=#2c2d27
+highlight ColorColumn ctermbg=238
 let &colorcolumn=join(range(81,999),",")
 
 "" Python
