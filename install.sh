@@ -8,7 +8,7 @@ function linkit {
 
     then
 
-        echo "vimrc Datei existiert bereits"
+        echo $1" Datei existiert bereits"
         echo "Breche ab."
 
     else
@@ -22,4 +22,5 @@ function linkit {
 
 linkit vimrc
 linkit zshrc
+linkit tmux.conf
 
