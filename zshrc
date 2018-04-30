@@ -3480,6 +3480,11 @@ fi
 
 zrclocal
 
+## Golang
+
+export GOPATH=$HOME/go                                                                                                                                        
+export PATH="$PATH:$GOPATH/bin"
+
 ## genrefcard.pl settings
 
 ### doc strings for external functions from files
