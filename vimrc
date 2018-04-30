@@ -38,3 +38,6 @@ nnoremap <C-L> :nohl<CR><C-L>
 " Display the cursor position on the last line of the screen or in the status
 " line of a window
 set ruler
+
+" don't close folds on file load
+set nofoldenable
