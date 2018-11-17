@@ -20,6 +20,9 @@ function linkit {
 
 }  
 
+# original path
+origpwd=$(pwd)
+
 linkit vimrc
 #linkit zshrc
 linkit tmux.conf
@@ -38,5 +41,8 @@ echo "will install oh-my-zsh and configure it"
 # Install oh-my-zsh
 cd ~
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+
+cd $origpwd
 cp honukai.zsh-theme ~/.oh-my-zsh/themes/honukai.zsh-theme
 sed -i 's/ZSH_THEME=\"robbyrussell\"/ZSH_THEME=\"honukai\"/g' ~/.zshrc
