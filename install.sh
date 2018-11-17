@@ -21,7 +21,7 @@ function linkit {
 }  
 
 linkit vimrc
-linkit zshrc
+#linkit zshrc
 linkit tmux.conf
 
 # install vim pathogen
@@ -32,3 +32,11 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 # install color scheme
 
 git clone https://github.com/nanotech/jellybeans.vim ~/.vim/bundle/jellybeans.vim
+
+echo "will install oh-my-zsh and configure it"
+
+# Install oh-my-zsh
+cd ~
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+cp honukai.zsh-theme ~/.oh-my-zsh/themes/honukai.zsh-theme
+sed -i 's/ZSH_THEME=\"robbyrussell\"/ZSH_THEME=\"honukai\"/g' ~/.zshrc
