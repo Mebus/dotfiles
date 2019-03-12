@@ -36,7 +36,7 @@ echo "will install oh-my-zsh and configure it"
 
 # Install oh-my-zsh
 cd ~
-sh -c "$(curl -fsSL https://codeberg.org/Mebus/oh-my-zsh/src/branch/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://codeberg.org/Mebus/oh-my-zsh/raw/branch/master/tools/install.sh)"
 
 
 cd $origpwd
