@@ -30,7 +30,7 @@ linkit tmux.conf
 # install vim pathogen
 
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-    curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+    curl -LSso ~/.vim/autoload/pathogen.vim https://codeberg.org/Mebus/vim-pathogen/raw/branch/master/autoload/pathogen.vim
 
 echo "will install oh-my-zsh and configure it"
 
