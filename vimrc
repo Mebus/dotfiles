@@ -4,12 +4,12 @@ execute pathogen#infect()
 
 "" jellybeans colorscheme from pathogen
 
-colorscheme jellybeans
+colorscheme desert
 
 "" 80 Columns
 
-highlight ColorColumn ctermbg=238
-let &colorcolumn=join(range(81,999),",")
+"" highlight ColorColumn ctermbg=238
+"" let &colorcolumn=join(range(81,999),",")
 
 "" Python
 
