@@ -4,7 +4,7 @@ execute pathogen#infect()
 
 "" jellybeans colorscheme from pathogen
 
-colorscheme desert
+colorscheme NeoSolarized
 
 "" 80 Columns
 
