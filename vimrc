@@ -5,7 +5,6 @@ execute pathogen#infect()
 "" jellybeans colorscheme from pathogen
 
 colorscheme NeoSolarized
-set background=dark
 
 "" 80 Columns
 
