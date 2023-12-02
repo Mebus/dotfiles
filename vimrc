@@ -1,3 +1,7 @@
+"" Mouse
+
+set mouse-=a
+
 "" Pathogen
 
 execute pathogen#infect()
