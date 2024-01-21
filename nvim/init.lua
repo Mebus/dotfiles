@@ -1,6 +1,5 @@
 -- This file is supposed to be ~/.config/nvim/init.vim
 
-
 vim.opt.modeline=true
 vim.opt.tabstop=8
 vim.opt.expandtab=true
@@ -13,3 +12,10 @@ if vim.g.neovide then
   -- use the command fc-list to find fonts
   vim.o.guifont = "JetBrainsMonoNL Nerd Font:h8"
 end
+
+---@type ChadrcConfig
+local M = {}
+
+M.ui = { theme = 'rosepine' }
+
+return M
